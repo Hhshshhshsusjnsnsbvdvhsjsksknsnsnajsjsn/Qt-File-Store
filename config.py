@@ -22,7 +22,7 @@ API_ID = int(environ.get("API_ID", "29534418"))
 API_HASH = environ.get("API_HASH", "5f15dd792990ade40a43ae17413b422f")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7364991915:AAFkaLBjj83ItAkrzbVOTDiTY2qkOzZZHF4")
 
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() # Bot Start Picture
+PICS = (environ.get('PICS', 'https://telegra.ph/file/80c6bfd1d807d7053b833.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "qtmovies_bot") # without @
 PORT = environ.get("PORT", "8080")
