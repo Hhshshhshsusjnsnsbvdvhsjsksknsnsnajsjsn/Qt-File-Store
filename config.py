@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "29534418"))
 API_HASH = environ.get("API_HASH", "5f15dd792990ade40a43ae17413b422f")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7364991915:AAGNOhbcKWZ1wFeB_Mkj1-q8vmvG3ODVcuw")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/80c6bfd1d807d7053b833.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2012457784').split()]
@@ -77,13 +77,13 @@ MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = True
+    ON_HEROKU = False
 else:
     ON_HEROKU = False
 URL = environ.get("URL", "")
 
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit TTru@VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
     
