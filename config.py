@@ -42,8 +42,8 @@ DB_NAME = environ.get("DB_NAME", "techvjbotz")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "60")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "36000")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "120")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "7200")) # Time in Seconds
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002187044576"))
@@ -70,7 +70,7 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or Fal
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://qt-movie.blogspot.com/2024/08/qt-movie-bot.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
