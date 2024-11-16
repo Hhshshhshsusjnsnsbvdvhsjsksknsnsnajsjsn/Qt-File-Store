@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get("BOT_TOKEN", "")
 
 PICS = (environ.get('PICS', 'https://telegra.ph/file/80c6bfd1d807d7053b833.jpg')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '2012457784').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "qtmovies_bot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Fgggffd_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -70,9 +70,9 @@ WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or Fal
 WEBSITE_URL = environ.get("WEBSITE_URL", "https://qt-movie.blogspot.com/2024/08/qt-movie-bot.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
 
-# If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
+# If Stream Mode Is True Then Fill All ReqTd Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
